@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_Activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <ImageButton
+            android:id="@+id/FloorPlanButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/layout"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="175dp"
+            android:layout_marginStart="175dp"
+            android:contentDescription="@string/layout"/>
+
+        <ImageButton
+            android:id="@+id/HumidityButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/humid_logo"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="175dp"
+            android:layout_marginEnd="175dp"
+            android:contentDescription="@string/humid_button"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       >
+
+        <ImageButton
+            android:id="@+id/graphButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/graph_logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:contentDescription="@string/Graph"/>
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/banner"
+            android:contentDescription="@string/app_logo"/>
+
+        <ImageButton
+            android:id="@+id/TempButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/temp_logo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginEnd="100dp"
+            android:contentDescription="@string/temp_logo"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <ImageButton
+            android:id="@+id/adviceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/advice"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="175dp"
+            android:layout_marginLeft="175dp"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/Advices"/>
+
+        <ImageButton
+            android:id="@+id/serviceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/contact"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:layout_alignStart="@id/adviceButton"
+            android:layout_alignLeft="@id/adviceButton"
+            android:layout_marginStart="175dp"
+            android:layout_marginLeft="175dp"
+            android:contentDescription="@string/Contact_Logo"
+            />
+
+        <ImageButton
+            android:id="@+id/SettingsButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/settings_logo"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:layout_alignEnd="@id/lightUseButton"
+            android:layout_alignRight="@id/lightUseButton"
+            android:layout_marginRight="175dp"
+            android:layout_marginEnd="175dp"
+            android:contentDescription="@string/settings_logo"/>
+
+        <ImageButton
+            android:id="@+id/lightUseButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/light"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="175dp"
+            android:layout_marginEnd="175dp"
+            android:contentDescription="@string/light_button"/>
+
+        <TextView
+            android:id="@+id/Copyrights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/Copyrights" />
+
+    </RelativeLayout>
+
+</LinearLayout>

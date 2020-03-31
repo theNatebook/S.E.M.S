@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">S.E.M.S</string>
+    <string name="app_logo">LOGO</string>
+    <string name="temp_logo">Temp</string>
+    <string name="humid_button">Humidity</string>
+    <string name="light_button">Light</string>
+    <string name="settings_logo">Settings</string>
+    <string name="Contact_Logo">Service</string>
+    <string name="Graph">Daily Consumption</string>
+    <string name="layout">Floor Plan</string>
+    <string name="Advices">Advices and Tips</string>
+    <string name="Copyrights">Copyrights 6yApps </string>
+    <string name="Room1">Room 1</string>
+    <string name="Room2">Room 2</string>
+    <string name="Room3">Room 3</string>
+    <string name="currentT">Current temperature:</string>
+    <string name="currentHumidity">Current Humidity:</string>
+    <string name="room1T">Room 1: -5.44 C </string>
+    <string name="room2T">Room 2: 20 C </string>
+    <string name="room3T">Room 3: 2 C </string>
+    <string name="room1H">Room 1: Not Available </string>
+    <string name="room2H">Room 2: Not Available </string>
+    <string name="room3H">Room 3: Not Available </string>
+
+</resources>

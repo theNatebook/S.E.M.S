@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TempReadings">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/currenttemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/currentT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/room1temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/room1T"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/room2temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/room2T"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/room3temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/room3T"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp">
+
+        <Button
+            android:id="@+id/room1T"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:text="@string/Room1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/room2T"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:text="@string/Room2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/room3T"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:text="@string/Room3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</LinearLayout>
